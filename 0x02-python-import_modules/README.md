@@ -8,3 +8,4 @@ Importing is transferring the module so as to use its defined functions in your 
 
 | 0-add.py | Program that imports the function |
 | -------- | --------------------------------- |
+| 1-calculation.py | imports functions from the file does some Maths | 
