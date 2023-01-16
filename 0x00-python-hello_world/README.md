@@ -26,5 +26,4 @@
 | 9-easter_egg.py | File is a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line |
 | 100-write.py |  File is a Python script that prints and that piece of art is useful - Dora Korpar, 2015-10-19 using the function write from the sys module |
 
-@9-easter_egg.py contains the Zen of Python which is 19 guiding principles that influence the design of Python written by a software engineer by the name Tim Peters.
-[The Zen of Python](https://peps.python.org/pep-0020/)
+The file ==9-easter_egg.py== contains [The Zen of Python](https://peps.python.org/pep-0020/) which is 19 guiding principles that influence the design of Python written by a software engineer by the name Tim Peters.
