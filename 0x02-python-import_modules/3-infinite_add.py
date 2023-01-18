@@ -10,4 +10,3 @@ else:
     for i in range(1, argc):
         result += int(argv[i])
     print(f"{result:d}")
-    
