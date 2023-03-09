@@ -1,8 +1,8 @@
 # 0x02. Python - import & modules
 
-Repository contains python import and module codes
+Repository contains python import and modules codes
 
-Modules are '.py' file that can be import and used in other files. 
+Modules are '.py' file that can be imported and used in other files. 
 
 Importing is transferring the module so as to use its defined functions in your code.
 
