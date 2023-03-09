@@ -7,4 +7,4 @@ if __name__ == '__main__':
 
     for name in names:
         if name[0] != '_' and name[1] != '_':
-        print(name)
+            print(name)
