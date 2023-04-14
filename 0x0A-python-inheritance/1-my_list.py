@@ -7,6 +7,7 @@ class MyList(list):
 
     def __init__(self):
         """initiate my class"""
+        super().__init__()
 
     def print_sorted(self):
         """instance method that prints list"""
