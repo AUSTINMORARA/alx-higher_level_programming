@@ -6,6 +6,7 @@ Square class defination
 
 class Square:
     '''Square class declaration'''
+
     def __init__(self, size=0):
         '''Class initialization
             Args:
@@ -41,3 +42,5 @@ class Square:
             for j in range(self.__size):
                 print("#", end="")
             print('\n')
+        if self.__size == 0:
+            print("")
