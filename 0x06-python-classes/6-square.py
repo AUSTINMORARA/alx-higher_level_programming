@@ -7,9 +7,9 @@ square class defination
 class Square:
     '''Square class declaratiion'''
 
-    def __init__(self, size=0, position =(0,0)):
+    def __init__(self, size=0, position=(0, 0)):
         '''class initialization
-        
+
         Args:
             size:size of the square
             position:coordinates
@@ -64,5 +64,5 @@ class Square:
         '''Square representaion module'''
         for i in range(self.__size):
             for j in range(self.__size):
-                print("#",end="")
+                print("#", end="")
             print("\n")
