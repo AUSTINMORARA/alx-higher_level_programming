@@ -8,20 +8,22 @@ class Square:
     '''Square class declaration'''
 
     def __init__(self, size=0):
-        '''Class initialization
-            Args:
-                size:size of square
+        '''Square initialization
+            
+        Args:
+            size:size of square
         '''
         self.__size = size
 
     @property
     def size(self):
-        '''Retrieves size'''
+        '''Retrieves size of the square'''
         return self.__size
 
     @size.setter
     def size(self, value):
-        '''size setter
+        '''Sets size of the square
+            
             Args:
                 value: to be evaluated
         '''
@@ -33,11 +35,11 @@ class Square:
             self.__size = value
 
     def area(self):
-        '''Calculates the area of a square.'''
+        '''Calculates the area of the square.'''
         return self.__size * self.__size
 
     def my_print(self):
-        '''Creates square with "#"'''
+        '''Creates square with # character'''
         for i in range(self.__size):
             for j in range(self.__size):
                 print("#", end="")
