@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-'''
-Square class defination
-'''
+'''Square class defination'''
 
 
 class Square:
@@ -9,7 +7,7 @@ class Square:
 
     def __init__(self, size=0):
         '''Square initialization
-            
+
         Args:
             size:size of square
         '''
@@ -23,7 +21,7 @@ class Square:
     @size.setter
     def size(self, value):
         '''Sets size of the square
-            
+
             Args:
                 value: to be evaluated
             Raises:
@@ -44,8 +42,7 @@ class Square:
     def my_print(self):
         '''Creates square with # character'''
         for i in range(self.__size):
-            for j in range(self.__size):
-                print("#", end="")
+            [print("#", end="") for j in range(self.__size)]
             print('\n')
         if self.__size == 0:
             print("")
