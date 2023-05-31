@@ -36,6 +36,7 @@ class Square:
         return self.__size * self.__size
 
     def my_print(self):
+        '''Creates square with "#"'''
         for i in range(self.__size):
             for j in range(self.__size):
                 print("#", end="")
