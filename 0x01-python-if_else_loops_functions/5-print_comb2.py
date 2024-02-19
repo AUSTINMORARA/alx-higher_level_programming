@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 for i in range(100):
-    print(i, end=", ")
-print('\n', end="")
+    if i < 99:
+        print(i, end=", ")
+    else:
+        print(i)
