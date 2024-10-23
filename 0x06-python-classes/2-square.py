@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-''' class that defines a square'''
+""" Square Module """
 
 
 class Square:
-    '''Class represents a square'''
+    """ Square Class """
+
     def __init__(self, size=0):
-        '''Initializes the square
-            Args:
-                size:size of square
-        '''
-    if not isinstance(size, int):
-        raise TypeError("size must be an integer")
-    elif size < 0:
-        raise ValueError("size must be >= 0")
-    self.__size = size
+        """ Initializes the data """
+        if isinstance(size, int):
+            if size >= 0:
+                self.__size = size
+            else:
+                raise ValueError("size must be >= 0")
+        else:
+            raise TypeError("size must be an integer")
