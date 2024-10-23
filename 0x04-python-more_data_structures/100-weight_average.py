@@ -7,4 +7,4 @@ def weight_average(my_list=[]):
             num += (t[0] * t[1])
             denominator += (t[1])
         return (num/denominator)
-    return (0)
+    return 0
